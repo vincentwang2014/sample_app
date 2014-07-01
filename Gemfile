@@ -27,6 +27,10 @@ gem 'jquery-rails'
 gem 'bootstrap-sass','2.0.0.0'
 gem 'sprockets','2.11.0'
 
+# Use bcrypt as the crypto library
+
+gem 'bcrypt-ruby', '3.1.2'
+
 group :test do
 gem 'capybara'
 gem 'selenium-webdriver', '2.35.1'
